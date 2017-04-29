@@ -1,5 +1,6 @@
 # Multiple Linear Regression
 
+## testing git from atom
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -62,13 +63,3 @@ print (regressor_OLS.summary())
 X_opt = X[:,[0,3]]
 regressor_OLS = sm.OLS(endog = y , exog = X_opt).fit()
 print (regressor_OLS.summary())
-
-
-
-
-
-
-
-
-
-
